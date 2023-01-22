@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- nunito font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Food delivery</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ==== navbar-nav ==== -->
+    <nav class="navbar">
+        <div class="navbar-left__side">
+            <a href="#">
+                <img src="./img/navbar-brand.png" alt="navbar-brand">
+            </a>
+            <div class="navbar-left__search">
+                <input type="text" placeholder="Search">
+                <a href="#"><i class="bi bi-search"></i></a>
+            </div>
+        </div>
+        <div class="navbar-right__side">
+            <ul class="navbar-right__links">
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Deals</a></li>
+                <li class="line"></li>
+                <li><a href="#">My orders</a></li>
+            </ul>
+            <div class="navbar-right__avatar">
+                <button type="button" class="navbar-right__avatar__button">
+                    <img src="./img/shopping-bag.png" alt="shopping-bag">
+                    <span>4</span>
+                </button>
+                <a href="#">
+                    <img src="./img/header-avatar.png" alt="header-avatar">
+                </a>
+            </div>
+            <a href="#" class="navbar-right__hamburger">
+                <i class="bi bi-list"></i>
+            </a>
+        </div>
+    </nav>
+
+    <hr>
+    <!-- ===== deals ===== -->
+
+    <div class="deals">
+        <div class="deals__item">
+            <img src="./img/dessert.png" alt="dessert">
+            <div class="deals__item__about">
+                <span>
+                    <h3>
+                        All deserts
+                    </h3>
+                    <h1>
+                        20% OFF
+                    </h1>
+                </span>
+                <p>
+                    Deserty
+                </p>
+            </div>
+        </div>
+        <div class="deals__item">
+            <img src="./img/hamburger.png" alt="hamburger">
+            <div class="deals__item__about">
+                <span>
+                    <h3>
+                        Big Burgers
+                    </h3>
+                    <h1>
+                        50% OFF
+                    </h1>
+                </span>
+                <p>
+                    Fooddies
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ===== categories ===== -->
+
+    <div class="categories">
+        <div class="categories__item">
+            <img src="./img/pizza.png" alt="pizza">
+            <h4>Pizza</h4>
+        </div>
+        <div class="categories__item">
+            <img src="./img/burger.png" alt="burger">
+            <h4>Burger</h4>
+        </div>
+        <div class="categories__item">
+            <img src="./img/meat.png" alt="meat">
+            <h4>BBQ</h4>
+        </div>
+        <div class="categories__item">
+            <img src="./img/sushi.png" alt="sushi">
+            <h4>Sushi</h4>
+        </div>
+        <div class="categories__item">
+            <img src="./img/broccoli.png" alt="broccoli">
+            <h4>Vegan</h4>
+        </div>
+        <div class="categories__item">
+            <img src="./img/cake.png" alt="cake">
+            <h4>Desserts</h4>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
